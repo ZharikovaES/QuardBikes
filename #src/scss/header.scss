@@ -1,0 +1,53 @@
+.header {
+
+    &__mobile {
+    }
+
+    &__top{
+    
+    }
+}
+.top-header{
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img{
+        }
+        .menu-icon{
+            @media screen and (max-width: ($maxWidthContainerMobile + px)) {
+                display: block;
+            }    
+        }
+    }
+    &__nav {
+        @media screen and (max-width: ($maxWidthContainerMobile + px)) {
+            display: none;
+        }
+    }
+}
+.nav {
+    &__menu {
+        a {
+        }
+    }
+}
+.menu-nav {
+}
+
+.mobile-header {
+
+    .menu-nav{
+        li {
+            a{
+            }
+        }
+    }
+    &__socials {        
+    }
+}
+.control-mobile {
+    display: flex;
+    justify-content: space-between;
+}
