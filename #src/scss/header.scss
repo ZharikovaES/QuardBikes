@@ -1,11 +1,66 @@
 .header {
-
-    &__mobile {
+    height: 100vh;
+    position: relative;
+    &__inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
     }
+    &__top {
 
-    &__top{
-    
     }
+    &__content {}
+    &__slider {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+    &__mobile {}
+}
+.top-header {
+    &__nav {}
+    &__logo{
+
+    }
+}
+.menu-icon {
+}
+.nav {
+    &__menu {}
+}
+.menu-nav {
+}
+.call-me {
+    &__number {}
+    &__btn {}
+}
+.content-header {
+}
+.swiper-pagination {
+}
+.slider-header {
+    .swiper-wrapper {
+        .swiper-slide {
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;
+        }
+    }
+}
+.mobile-header {
+    &__control {}
+}
+.container-mobile {
+}
+.control-mobile {
+}
+.active {
 }
 .top-header{
     &__inner {
