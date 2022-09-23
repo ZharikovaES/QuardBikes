@@ -29,13 +29,6 @@
 
     }
 }
-.menu-icon {
-}
-.nav {
-    &__menu {}
-}
-.menu-nav {
-}
 .call-me {
     &__number {}
     &__btn {}
@@ -60,8 +53,6 @@
 }
 .control-mobile {
 }
-.active {
-}
 .top-header{
     &__inner {
         display: flex;
@@ -82,25 +73,17 @@
         }
     }
 }
-.nav {
-    &__menu {
-        a {
-        }
+.box-content {
+    &__title{
+        @include adaptiv-font(70, 36, 1);
+        font-weight: 800;
+        line-height: 1.25;
+        letter-spacing: 4.5%;
+        margin-bottom: 3vh;
     }
 }
-.menu-nav {
-}
-
 .mobile-header {
 
-    .menu-nav{
-        li {
-            a{
-            }
-        }
-    }
-    &__socials {        
-    }
 }
 .control-mobile {
     display: flex;

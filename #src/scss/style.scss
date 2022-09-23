@@ -87,18 +87,10 @@ img{
 @import "footer";
 
 .title {
-    @include adaptiv-font(70, 36, 1);
-    font-weight: 800;
-    line-height: 1.25;
-    letter-spacing: 4.5%;
-    margin-bottom: 3vh;
-}
-.subtitle {
     @include adaptiv-font(36, 24, 1);
     font-weight: 700;
     line-height: 1.3;
     margin-bottom: 2vh;
-
 }
 .btn {
     text-align: center;
